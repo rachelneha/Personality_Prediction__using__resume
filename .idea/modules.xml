@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../Personality-Prediction-Through-CV-master/.idea/Personality-Prediction-Through-CV-master.iml" filepath="$PROJECT_DIR$/../../Personality-Prediction-Through-CV-master/.idea/Personality-Prediction-Through-CV-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/predic.iml" filepath="$PROJECT_DIR$/.idea/predic.iml" />
+    </modules>
+  </component>
+</project>

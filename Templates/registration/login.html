@@ -1,0 +1,23 @@
+{% extends 'adminlte/login.html' %}
+
+{% block logo %}
+<div class="login-logo">
+    <a href="{% block logo_href %}/{% endblock %}">{% block logo_text %}<b>PERSONALITY 0 </b>PREDICTION{% endblock %}</a>
+    <p>using cv</p>
+</div>
+{% endblock %}
+
+ {% block login_form_links %}
+ <a href="{% url 'signup' %}">Signup</a>
+ {% endblock %}
+
+{% block  stylesheets %}
+{{ block.super }}
+<style>
+    .login-page, .register-page {
+    background: url(https://justinder.com/wp-content/uploads/2021/02/Predict-my-future-free-online-JUSTINDER.jpg) !important;
+    background-size: cover !important;
+}
+
+</style>
+{% endblock %}

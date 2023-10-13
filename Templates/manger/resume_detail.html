@@ -1,0 +1,23 @@
+{% extends 'adminlte/base.html' %}
+
+{% block title %}Create Resume{% endblock %}
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">
+                        Resume
+                    </div>
+                    <div class="card-body">
+                    {% if object.pk and object.resume %}
+                        <a href="{{object.resume.url}}" target="_blank">Open Resume</a>
+                        {% else %}
+                        No Resume Uploaded
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

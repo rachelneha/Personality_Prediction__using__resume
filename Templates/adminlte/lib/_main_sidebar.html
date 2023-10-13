@@ -1,0 +1,9 @@
+{% extends 'adminlte/lib/_main_sidebar.html' %}
+
+{% block nav_links %}
+  {% if request.user.is_superuser %}
+  {% include "adminlte/lib/adminnav.html" %}
+  {% else %}
+  {% include "adminlte/lib/usrenav.html" %}
+  {% endif %}
+{% endblock nav_links %}

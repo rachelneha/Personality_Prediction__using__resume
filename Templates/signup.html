@@ -1,0 +1,70 @@
+{% extends 'adminlte/login.html' %}
+ {% block logo %}
+        <div class="login-logo">
+            {# Mirrors block names used in _main_header.html #}
+            <a href="{% block logo_href %}/{% endblock %}">{% block logo_text %}<b>SignUp</b>{% endblock %}</a>
+        </div>
+        {% endblock %}
+{% block title %} Signup Page {% endblock %}
+{% block  stylesheets %}
+{{ block.super }}
+<style>
+    .login-page, .register-page {
+    background: url(https://justinder.com/wp-content/uploads/2021/02/Predict-my-future-free-online-JUSTINDER.jpg) !important;
+    background-size: cover !important;
+}
+
+</style>
+{% endblock %}
+{% block login_form %}
+
+<div class="row">
+    <div class="col-sm-12">
+        <h3>Signup</h3>
+        <hr>
+        <form action="" method="post">
+
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="id_username">Username</label>
+                <input class="form-control" required type="text" name="username" value="{{ request.POST.username }}" placeholder="Username" id="id_username">
+                <small class="form-text text-danger">  {{ errors.username }}  </small>
+            </div>
+
+            <div class="form-group">
+                <label for="id_first_name">First Name</label>
+                <input class="form-control" required type="text" name="first_name" value="{{ request.POST.first_name }}" placeholder="First Name" id="id_first_name">
+                <small class="form-text text-danger">  {{ errors.first_name }}  </small>
+            </div>
+
+            <div class="form-group">
+                <label for="id_last_name">Last Name</label>
+                <input class="form-control" type="text" name="last_name" value="{{ request.POST.last_name }}" placeholder="Last Name" id="id_last_name">
+                <small class="form-text text-danger">  {{ errors.last_name }}  </small>
+            </div>
+
+            <div class="form-group">
+                <label for="id_password">Password</label>
+                <input class="form-control" required type="password" name="password1"  placeholder="Password" id="id_password">
+                <small class="form-text text-danger">  {{ errors.password1 }}  </small>
+            </div>
+
+            <div class="form-group">
+                <label for="id_confirm_password">Confirm Password</label>
+                <input class="form-control" required type="password" name="password2"  placeholder="Confirm Password" id="id_confirm_password">
+                <small class="form-text text-danger">  {{ errors.password2 }}  </small>
+            </div>
+
+            <div class="form-group">
+                <label for="id_email">Email</label>
+                <input class="form-control" required type="email" name="email"  value="{{ request.POST.email }}" placeholder="Email" id="id_email">
+                <small class="form-text text-danger">  {{ errors.email }}  </small>
+            </div>
+
+            <input type="submit" class="btn btn-success btn-lg mt-2" value="Submit">
+        </form>
+    </div>
+</div>
+
+
+{% endblock %}

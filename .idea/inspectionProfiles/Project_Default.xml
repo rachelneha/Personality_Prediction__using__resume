@@ -1,0 +1,478 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ourVersions">
+        <value>
+          <list size="8">
+            <item index="0" class="java.lang.String" itemvalue="2.7" />
+            <item index="1" class="java.lang.String" itemvalue="3.5" />
+            <item index="2" class="java.lang.String" itemvalue="3.6" />
+            <item index="3" class="java.lang.String" itemvalue="3.7" />
+            <item index="4" class="java.lang.String" itemvalue="3.8" />
+            <item index="5" class="java.lang.String" itemvalue="3.9" />
+            <item index="6" class="java.lang.String" itemvalue="3.10" />
+            <item index="7" class="java.lang.String" itemvalue="3.11" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="196">
+            <item index="0" class="java.lang.String" itemvalue="numpy" />
+            <item index="1" class="java.lang.String" itemvalue="PyJWT" />
+            <item index="2" class="java.lang.String" itemvalue="hyperframe" />
+            <item index="3" class="java.lang.String" itemvalue="h2" />
+            <item index="4" class="java.lang.String" itemvalue="django-rest-auth" />
+            <item index="5" class="java.lang.String" itemvalue="greenlet" />
+            <item index="6" class="java.lang.String" itemvalue="factory-boy" />
+            <item index="7" class="java.lang.String" itemvalue="Babel" />
+            <item index="8" class="java.lang.String" itemvalue="defusedxml" />
+            <item index="9" class="java.lang.String" itemvalue="pycparser" />
+            <item index="10" class="java.lang.String" itemvalue="django-debug-toolbar-force" />
+            <item index="11" class="java.lang.String" itemvalue="redis" />
+            <item index="12" class="java.lang.String" itemvalue="coreschema" />
+            <item index="13" class="java.lang.String" itemvalue="django-widget-tweaks" />
+            <item index="14" class="java.lang.String" itemvalue="pywebpush" />
+            <item index="15" class="java.lang.String" itemvalue="elasticsearch" />
+            <item index="16" class="java.lang.String" itemvalue="Pygments" />
+            <item index="17" class="java.lang.String" itemvalue="sentry-sdk" />
+            <item index="18" class="java.lang.String" itemvalue="pycountry" />
+            <item index="19" class="java.lang.String" itemvalue="fuzzywuzzy" />
+            <item index="20" class="java.lang.String" itemvalue="django-oscar-cash-on-delivery" />
+            <item index="21" class="java.lang.String" itemvalue="asgiref" />
+            <item index="22" class="java.lang.String" itemvalue="gunicorn" />
+            <item index="23" class="java.lang.String" itemvalue="python-instagram" />
+            <item index="24" class="java.lang.String" itemvalue="python3-openid" />
+            <item index="25" class="java.lang.String" itemvalue="simplejson" />
+            <item index="26" class="java.lang.String" itemvalue="django-extra-views" />
+            <item index="27" class="java.lang.String" itemvalue="django-floppyforms" />
+            <item index="28" class="java.lang.String" itemvalue="django-solo" />
+            <item index="29" class="java.lang.String" itemvalue="elasticsearch-dsl" />
+            <item index="30" class="java.lang.String" itemvalue="http-ece" />
+            <item index="31" class="java.lang.String" itemvalue="django-haystack" />
+            <item index="32" class="java.lang.String" itemvalue="django-oscar-api" />
+            <item index="33" class="java.lang.String" itemvalue="idna" />
+            <item index="34" class="java.lang.String" itemvalue="django-push-notifications" />
+            <item index="35" class="java.lang.String" itemvalue="cffi" />
+            <item index="36" class="java.lang.String" itemvalue="sorl-thumbnail" />
+            <item index="37" class="java.lang.String" itemvalue="requests" />
+            <item index="38" class="java.lang.String" itemvalue="django-elasticsearch-dsl-drf" />
+            <item index="39" class="java.lang.String" itemvalue="django-select-multiple-field" />
+            <item index="40" class="java.lang.String" itemvalue="django-tables2" />
+            <item index="41" class="java.lang.String" itemvalue="django-google-maps" />
+            <item index="42" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="43" class="java.lang.String" itemvalue="uritemplate" />
+            <item index="44" class="java.lang.String" itemvalue="phonenumbers" />
+            <item index="45" class="java.lang.String" itemvalue="django-debug-toolbar" />
+            <item index="46" class="java.lang.String" itemvalue="hpack" />
+            <item index="47" class="java.lang.String" itemvalue="pandas" />
+            <item index="48" class="java.lang.String" itemvalue="python-http-client" />
+            <item index="49" class="java.lang.String" itemvalue="Django" />
+            <item index="50" class="java.lang.String" itemvalue="future" />
+            <item index="51" class="java.lang.String" itemvalue="django-redis" />
+            <item index="52" class="java.lang.String" itemvalue="itypes" />
+            <item index="53" class="java.lang.String" itemvalue="django-elasticsearch-dsl" />
+            <item index="54" class="java.lang.String" itemvalue="pytz" />
+            <item index="55" class="java.lang.String" itemvalue="Pillow" />
+            <item index="56" class="java.lang.String" itemvalue="blessings" />
+            <item index="57" class="java.lang.String" itemvalue="pgeocode" />
+            <item index="58" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="59" class="java.lang.String" itemvalue="psycopg2-binary" />
+            <item index="60" class="java.lang.String" itemvalue="python-dotenv" />
+            <item index="61" class="java.lang.String" itemvalue="django-elasticsearch-debug-toolbar" />
+            <item index="62" class="java.lang.String" itemvalue="MarkupSafe" />
+            <item index="63" class="java.lang.String" itemvalue="uuid" />
+            <item index="64" class="java.lang.String" itemvalue="django-extensions" />
+            <item index="65" class="java.lang.String" itemvalue="Faker" />
+            <item index="66" class="java.lang.String" itemvalue="certifi" />
+            <item index="67" class="java.lang.String" itemvalue="oauthlib" />
+            <item index="68" class="java.lang.String" itemvalue="sendgrid-django" />
+            <item index="69" class="java.lang.String" itemvalue="stripe" />
+            <item index="70" class="java.lang.String" itemvalue="razorpay" />
+            <item index="71" class="java.lang.String" itemvalue="pyparsing" />
+            <item index="72" class="java.lang.String" itemvalue="bpython" />
+            <item index="73" class="java.lang.String" itemvalue="hyper" />
+            <item index="74" class="java.lang.String" itemvalue="django-treebeard" />
+            <item index="75" class="java.lang.String" itemvalue="django-oscar" />
+            <item index="76" class="java.lang.String" itemvalue="django-crispy-forms" />
+            <item index="77" class="java.lang.String" itemvalue="cryptography" />
+            <item index="78" class="java.lang.String" itemvalue="sendgrid" />
+            <item index="79" class="java.lang.String" itemvalue="django-oscar-accounts" />
+            <item index="80" class="java.lang.String" itemvalue="django-filter" />
+            <item index="81" class="java.lang.String" itemvalue="django-allauth" />
+            <item index="82" class="java.lang.String" itemvalue="djangorestframework-gis" />
+            <item index="83" class="java.lang.String" itemvalue="django-nine" />
+            <item index="84" class="java.lang.String" itemvalue="django-oscar-stores" />
+            <item index="85" class="java.lang.String" itemvalue="pyfcm" />
+            <item index="86" class="java.lang.String" itemvalue="Whoosh" />
+            <item index="87" class="java.lang.String" itemvalue="jsonfield" />
+            <item index="88" class="java.lang.String" itemvalue="httplib2" />
+            <item index="89" class="java.lang.String" itemvalue="wcwidth" />
+            <item index="90" class="java.lang.String" itemvalue="purl" />
+            <item index="91" class="java.lang.String" itemvalue="Jinja2" />
+            <item index="92" class="java.lang.String" itemvalue="sqlparse" />
+            <item index="93" class="java.lang.String" itemvalue="requests-oauthlib" />
+            <item index="94" class="java.lang.String" itemvalue="curtsies" />
+            <item index="95" class="java.lang.String" itemvalue="django-phonenumber-field" />
+            <item index="96" class="java.lang.String" itemvalue="urllib3" />
+            <item index="97" class="java.lang.String" itemvalue="six" />
+            <item index="98" class="java.lang.String" itemvalue="text-unidecode" />
+            <item index="99" class="java.lang.String" itemvalue="chardet" />
+            <item index="100" class="java.lang.String" itemvalue="py-vapid" />
+            <item index="101" class="java.lang.String" itemvalue="coreapi" />
+            <item index="102" class="java.lang.String" itemvalue="apns2" />
+            <item index="103" class="java.lang.String" itemvalue="django-oscar-api-checkout" />
+            <item index="104" class="java.lang.String" itemvalue="fonttools" />
+            <item index="105" class="java.lang.String" itemvalue="zopfli" />
+            <item index="106" class="java.lang.String" itemvalue="Brotli" />
+            <item index="107" class="java.lang.String" itemvalue="pydyf" />
+            <item index="108" class="java.lang.String" itemvalue="wasabi" />
+            <item index="109" class="java.lang.String" itemvalue="django-ckeditor" />
+            <item index="110" class="java.lang.String" itemvalue="ordered-set-stubs" />
+            <item index="111" class="java.lang.String" itemvalue="more-itertools" />
+            <item index="112" class="java.lang.String" itemvalue="srsly" />
+            <item index="113" class="java.lang.String" itemvalue="importlib-metadata" />
+            <item index="114" class="java.lang.String" itemvalue="preshed" />
+            <item index="115" class="java.lang.String" itemvalue="spacy" />
+            <item index="116" class="java.lang.String" itemvalue="tomlkit" />
+            <item index="117" class="java.lang.String" itemvalue="zipp" />
+            <item index="118" class="java.lang.String" itemvalue="blis" />
+            <item index="119" class="java.lang.String" itemvalue="cached-property" />
+            <item index="120" class="java.lang.String" itemvalue="drf-extra-fields" />
+            <item index="121" class="java.lang.String" itemvalue="django-cors-headers" />
+            <item index="122" class="java.lang.String" itemvalue="pydantic" />
+            <item index="123" class="java.lang.String" itemvalue="ordered-set" />
+            <item index="124" class="java.lang.String" itemvalue="poetry-version" />
+            <item index="125" class="java.lang.String" itemvalue="ruamel.yaml" />
+            <item index="126" class="java.lang.String" itemvalue="plac" />
+            <item index="127" class="java.lang.String" itemvalue="typing-extensions" />
+            <item index="128" class="java.lang.String" itemvalue="catalogue" />
+            <item index="129" class="java.lang.String" itemvalue="tqdm" />
+            <item index="130" class="java.lang.String" itemvalue="better-profanity" />
+            <item index="131" class="java.lang.String" itemvalue="cymem" />
+            <item index="132" class="java.lang.String" itemvalue="django-colorfield" />
+            <item index="133" class="java.lang.String" itemvalue="django-js-asset" />
+            <item index="134" class="java.lang.String" itemvalue="django-redis-sessions" />
+            <item index="135" class="java.lang.String" itemvalue="profanity-filter" />
+            <item index="136" class="java.lang.String" itemvalue="murmurhash" />
+            <item index="137" class="java.lang.String" itemvalue="thinc" />
+            <item index="138" class="java.lang.String" itemvalue="django-taggit" />
+            <item index="139" class="java.lang.String" itemvalue="stringcase" />
+            <item index="140" class="java.lang.String" itemvalue="tabulate" />
+            <item index="141" class="java.lang.String" itemvalue="django-mathfilters" />
+            <item index="142" class="java.lang.String" itemvalue="mypy-extensions" />
+            <item index="143" class="java.lang.String" itemvalue="marshmallow" />
+            <item index="144" class="java.lang.String" itemvalue="pywatchman" />
+            <item index="145" class="java.lang.String" itemvalue="click" />
+            <item index="146" class="java.lang.String" itemvalue="psutil" />
+            <item index="147" class="java.lang.String" itemvalue="dataclasses-json" />
+            <item index="148" class="java.lang.String" itemvalue="pyre-check" />
+            <item index="149" class="java.lang.String" itemvalue="typing-inspect" />
+            <item index="150" class="java.lang.String" itemvalue="marshmallow-enum" />
+            <item index="151" class="java.lang.String" itemvalue="django-multiselectfield" />
+            <item index="152" class="java.lang.String" itemvalue="pyexcel-xls" />
+            <item index="153" class="java.lang.String" itemvalue="pyexcel-xlsx" />
+            <item index="154" class="java.lang.String" itemvalue="async-generator" />
+            <item index="155" class="java.lang.String" itemvalue="libcst" />
+            <item index="156" class="java.lang.String" itemvalue="pyre-extensions" />
+            <item index="157" class="java.lang.String" itemvalue="boto3" />
+            <item index="158" class="java.lang.String" itemvalue="botocore" />
+            <item index="159" class="java.lang.String" itemvalue="collectfast" />
+            <item index="160" class="java.lang.String" itemvalue="backports.zoneinfo" />
+            <item index="161" class="java.lang.String" itemvalue="oauth2client" />
+            <item index="162" class="java.lang.String" itemvalue="protobuf" />
+            <item index="163" class="java.lang.String" itemvalue="rsa" />
+            <item index="164" class="java.lang.String" itemvalue="traceback2" />
+            <item index="165" class="java.lang.String" itemvalue="webcolors" />
+            <item index="166" class="java.lang.String" itemvalue="python-Levenshtein" />
+            <item index="167" class="java.lang.String" itemvalue="googleapis-common-protos" />
+            <item index="168" class="java.lang.String" itemvalue="django-storages" />
+            <item index="169" class="java.lang.String" itemvalue="pyasn1" />
+            <item index="170" class="java.lang.String" itemvalue="Collectfast" />
+            <item index="171" class="java.lang.String" itemvalue="pyasn1-modules" />
+            <item index="172" class="java.lang.String" itemvalue="colorthief" />
+            <item index="173" class="java.lang.String" itemvalue="python-resize-image" />
+            <item index="174" class="java.lang.String" itemvalue="google-auth-httplib2" />
+            <item index="175" class="java.lang.String" itemvalue="google-api-core" />
+            <item index="176" class="java.lang.String" itemvalue="memoization" />
+            <item index="177" class="java.lang.String" itemvalue="google-auth-oauthlib" />
+            <item index="178" class="java.lang.String" itemvalue="gspread" />
+            <item index="179" class="java.lang.String" itemvalue="unittest2" />
+            <item index="180" class="java.lang.String" itemvalue="django-rest-swagger" />
+            <item index="181" class="java.lang.String" itemvalue="jmespath" />
+            <item index="182" class="java.lang.String" itemvalue="s3transfer" />
+            <item index="183" class="java.lang.String" itemvalue="cachetools" />
+            <item index="184" class="java.lang.String" itemvalue="google-api-python-client" />
+            <item index="185" class="java.lang.String" itemvalue="openapi-codec" />
+            <item index="186" class="java.lang.String" itemvalue="linecache2" />
+            <item index="187" class="java.lang.String" itemvalue="google-auth" />
+            <item index="188" class="java.lang.String" itemvalue="alphatrade" />
+            <item index="189" class="java.lang.String" itemvalue="pycrypto" />
+            <item index="190" class="java.lang.String" itemvalue="termcolor" />
+            <item index="191" class="java.lang.String" itemvalue="cookiecutter" />
+            <item index="192" class="java.lang.String" itemvalue="requests-toolbelt" />
+            <item index="193" class="java.lang.String" itemvalue="django-admin-volt" />
+            <item index="194" class="java.lang.String" itemvalue="NorenRestApiPy" />
+            <item index="195" class="java.lang.String" itemvalue="django-jet-reboot" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N803" />
+        </list>
+      </option>
+      <option name="ignoredBaseClasses">
+        <list>
+          <option value="unittest.TestCase" />
+          <option value="unittest.case.TestCase" />
+          <option value="brokers.constants.base.AbstractConstant" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="apps.executivetracking.models.Lead.objects" />
+          <option value="apps.executivetracking.models.CheckInDay.objects" />
+          <option value="apps.api_set.serializers.orders.*" />
+          <option value="apps.executivetracking.models.CheckPoint.objects" />
+          <option value="django.db.models.fields.related.ForeignKey.location" />
+          <option value="apps.ats.models.ResumeStatus.objects" />
+          <option value="apps.leave.models.LeaveRequest.objects" />
+          <option value="apps.users.models.Location.objects" />
+          <option value="oscar.apps.address.models.Country.objects" />
+          <option value="apps.logistics.models.DeliveryTrip.objects" />
+          <option value="apps.order.models.Order.objects" />
+          <option value="apps.logistics.models.Slot.objects" />
+          <option value="apps.logistics.models.FailedRefund.objects" />
+          <option value="apps.user.models.Dealer.objects" />
+          <option value="apps.infrastructure.models.Branch.objects" />
+          <option value="apps.dashboard.custom.models.InAppBanner.objects" />
+          <option value="event.models.Event.objects" />
+          <option value="event.models.Registration.objects" />
+          <option value="django.db.models.fields.related.ForeignKey.no_of_days" />
+          <option value="django.db.models.fields.related.ForeignKey.track_leave_count" />
+          <option value="apps.leave.models.Holiday.objects" />
+          <option value="apps.leave.models.LeaveType.objects" />
+          <option value="apps.req.models.Requirement.objects" />
+          <option value="apps.req.models.Product.objects" />
+          <option value="apps.req.form.RequirementFormMixin.fields" />
+          <option value="apps.req.form.RequirementFormMixin.instance" />
+          <option value="object.save" />
+          <option value="apps.quotation.models.Quotation.objects" />
+          <option value="apps.quotation.models.Line.objects" />
+          <option value="oscar.apps.catalogue.models.ProductClass.objects" />
+          <option value="apps.catalogue.models.Brand.objects" />
+          <option value="oscar.apps.catalogue.models.ProductCategory.objects" />
+          <option value="apps.availability.models.Zones.objects" />
+          <option value="apps.payment.models.PaymentGateWayResponse.objects" />
+          <option value="apps.payment.models.COD.objects" />
+          <option value="apps.dashboard.custom.models.OfferBanner.objects" />
+          <option value="apps.dashboard.custom.models.HomePageMegaBanner.objects" />
+          <option value="apps.dashboard.custom.models.TopCategory.objects" />
+          <option value="apps.dashboard.custom.models.OfferBox.objects" />
+          <option value="apps.dashboard.custom.models.SocialMediaPost.objects" />
+          <option value="polls.models.Question.objects" />
+          <option value="oscar.apps.payment.models.SourceType.objects" />
+          <option value="razorpay.client.Client.payment" />
+          <option value="apps.loyaltyprogram.models.Gift.objects" />
+          <option value="apps.loyaltyprogram.models.CustomerData.objects" />
+          <option value="apps.payment.models.Plan.objects" />
+          <option value="apps.user.models.User.user" />
+          <option value="apps.payment.models.SourceType.objects" />
+          <option value="razorpay.client.Client.subscription" />
+          <option value="razorpay.client.Client.utility" />
+          <option value="razorpay.client.Client.plan" />
+          <option value="razorpay.client.Client.order" />
+          <option value="apps.user.models.UserProfile.objects" />
+          <option value="apps.verification.models.MobileOTPVerification.objects" />
+          <option value="django.db.models.fields.related.ForeignKey._User__mark_mobile_as_verified" />
+          <option value="django.db.models.fields.related.ForeignKey._User__mark_email_as_verified" />
+          <option value="rest_framework.authtoken.models.Token.objects" />
+          <option value="apps.user.models.DocumentFile.objects" />
+          <option value="apps.user.models.DisplayPicture.objects" />
+          <option value="apps.datastack.models.EducationCategory.objects" />
+          <option value="apps.user.models.HobbyCategory.objects" />
+          <option value="apps.user.models.DocumentType.objects" />
+          <option value="apps.datastack.models.JobCategory.objects" />
+          <option value="apps.verification.models.SelfieVerification.objects" />
+          <option value="apps.user.models.Notification.objects" />
+          <option value="lib.serializer_factory.ModelSerializerFactory.get_queryset" />
+          <option value="object.get_serializer_class" />
+          <option value="apps.datastack.models.Religion.objects" />
+          <option value="apps.datastack.models.Organization.objects" />
+          <option value="apps.user.models.UserPartnerPreference.objects" />
+          <option value="apps.matching.models.AIQuestion.objects" />
+          <option value="apps.matching.views.FormSetMixin.get_form" />
+          <option value="apps.matching.views.FormSetMixin.request" />
+          <option value="apps.matching.views.FormSetMixin.render_to_response" />
+          <option value="object.*" />
+          <option value="apps.matching.views.FormSetMixin.get_object" />
+          <option value="apps.matching.models.AIChoice.objects" />
+          <option value="apps.matching.models.BehaviouralTrait.objects" />
+          <option value="apps.matching.models.BehaviouralTraitChoice.objects" />
+          <option value="apps.user.management.commands.populate.Command.populate_education" />
+          <option value="apps.datastack.models.Community.objects" />
+          <option value="apps.datastack.models.EducationTitle.objects" />
+          <option value="django.contrib.flatpages.models.FlatPage.objects" />
+          <option value="apps.datastack.models.JobTitle.objects" />
+          <option value="apps.matching.models.AISelectedChoice.objects" />
+          <option value="apps.payment.models.Transaction.objects" />
+          <option value="apps.payment.models.Source.objects" />
+          <option value="apps.payment.models.Subscription.objects" />
+          <option value="apps.matching.models.BehaviouralTraitSelectedChoice.objects" />
+          <option value="apps.availability.models.PincodePartnerThroughModel.objects" />
+          <option value="apps.users.models.User.addresses" />
+          <option value="apps.basket.models.WishList.lines" />
+          <option value="apps.catalogue.models.Product.objects" />
+          <option value="apps.catalogue.models.SubCategory.objects" />
+          <option value="apps.catalogue.models.Category.objects" />
+          <option value="apps.catalogue.models.ProductGroup.objects" />
+          <option value="apps.catalogue.models.ProductGallery.objects" />
+          <option value="apps.appconfigurator.helper.ConfigGenerator.get_list_url" />
+          <option value="apps.catalogue.management.commands.rewrite_img_data.Command.extract_sheet" />
+          <option value="apps.notification.models.Notification.objects" />
+          <option value="apps.stockrecord.abstract_models.stock_log.StockLogGrouper.objects" />
+          <option value="apps.stockrecord.abstract_models.salesenquiries.SalesEnquiry.objects" />
+          <option value="apps.stockrecord.abstract_models.stockrecord.StockRecord.objects" />
+          <option value="apps.stockrecord.abstract_models.packingslips.PackingSlip.objects" />
+          <option value="apps.stockrecord.abstract_models.stock_log.StockLog.objects" />
+          <option value="django.db.models.fields.DateTimeField.strftime" />
+          <option value="django.db.models.fields.related.ForeignKey.branch" />
+          <option value="apps.stockrecord.abstract_models.stock_log.StockLogGrouper.entries" />
+          <option value="apps.catalogue.models.Collection.objects" />
+          <option value="apps.api_set.serializers.mixins.ProductDetailSerializerMixin.context" />
+          <option value="apps.catalogue.management.commands.export_toghseet.Command.write_header" />
+          <option value="django.db.models.fields.related.ManyToManyField.all" />
+          <option value="apps.dashboard.custom.models.TopCategory.product_range_id" />
+          <option value="apps.executivetracking.models.District.objects" />
+          <option value="apps.catalogue.models.Product360Image.objects" />
+          <option value="apps.quotation.models.Description.objects" />
+          <option value="apps.quotation.models.Product.objects" />
+          <option value="django.db.models.fields.related.ForeignKey.get_full_name" />
+          <option value="apps.drar.models.Drar.objects" />
+          <option value="apps.drar.models.DrarConfiguration.objects" />
+          <option value="apps.drar.models.DrarReadReciept.objects" />
+          <option value="django.db.models.fields.DateTimeField.date" />
+          <option value="apps.asset.models.Ownership.objects" />
+          <option value="apps.order.models.SalesOrder.objects" />
+          <option value="apps.catalogue.models.PDF.objects" />
+          <option value="apps.user.models.Banners.objects" />
+          <option value="apps.order.models.SalesOrderLine.objects" />
+          <option value="apps.documents.models.UserDocument.objects" />
+          <option value="apps.user.models.Profile.objects" />
+          <option value="apps.documents.models.UserDocumentType.objects" />
+          <option value="apps.user.models.Customer.objects" />
+          <option value="apps.user.models.Complaint.objects" />
+          <option value="apps.order.models.SalesOrder.transaction_set" />
+          <option value="apps.wash.models.Wash.objects" />
+          <option value="apps.wash.models.Vehicle.objects" />
+          <option value="apps.user.models.BCard.objects" />
+          <option value="apps.user.models.LoginOTP.objects" />
+          <option value="apps.leave.models.WFHRequest.objects" />
+          <option value="apps.leave.models.LateAttendance.objects" />
+          <option value="apps.dashboard.custom.models.Gallery.objects" />
+          <option value="apps.user.views.user_view.UserRoleMixin.kwargs" />
+          <option value="apps.community.models.Tower.objects" />
+          <option value="apps.carwash.operator.models.CarwashVendorCompany.objects" />
+          <option value="apps.carwash.operator.models.CarwashOperator.objects" />
+          <option value="apps.whatsappintegration.models.MessageMemory.objects" />
+          <option value="apps.carwash.vehicle.models.Vehicle.objects" />
+          <option value="apps.community.models.Community.objects" />
+          <option value="apps.carwash.vehicle.models.VehicleBrand.objects" />
+          <option value="payment.models.Plan.objects" />
+          <option value="apps.carwash.vehicle.models.VehicleModal.objects" />
+          <option value="apps.carwash.subscription.models.Plan.objects" />
+          <option value="apps.executivetracking.models.Zone.objects" />
+          <option value="apps.user.models.SiteConfiguration.objects" />
+          <option value="apps.carwash.operator.models.Task.objects" />
+          <option value="apps.carwash.operator.models.Task.id" />
+          <option value="dashboard.models.Product.objects" />
+          <option value="dashboard.models.Order.objects" />
+          <option value="dashboard.models.DeliveryLog.*" />
+          <option value="apps.carwash.subscription.models.Subscription.task_set" />
+          <option value="django.db.models.fields.related.ForeignKey.external_wash_days" />
+          <option value="django.db.models.fields.related.ForeignKey.no_of_ext_wash" />
+          <option value="apps.carwash.subscription.models.Subscription.objects" />
+          <option value="apps.community.models.ParkingArea.objects" />
+          <option value="apps.crm.models.Company.customer_id" />
+          <option value="django.db.models.fields.related.ManyToManyField.add" />
+          <option value="django.db.models.fields.related.ForeignKey.no_of_seats" />
+          <option value="apps.crm.models.Event.owner_id" />
+          <option value="apps.drar.models.DrarIntermediateStatusUpdate.objects" />
+          <option value="apps.drar.models.DrarComment.objects" />
+          <option value="apps.carwash.service.models.Service.objects" />
+          <option value="apps.mvp.apis.community.MyWashesList.partial_update" />
+          <option value="apps.sop.models.SOP.objects" />
+          <option value="lib.helloprogrammer.NoLifeError" />
+          <option value="lib.helloprogrammer.today" />
+          <option value="django.db.models.fields.related.ForeignKey.no_of_int_wash" />
+          <option value="django.db.models.fields.related.ForeignKey.internal_wash_days" />
+          <option value="apps.community.views.RenewSubscription.instance" />
+          <option value="customer.models.custom_user.CustomUser.order_set" />
+          <option value="manager.authentication.forms.StaffRoleFilterMixin.fields" />
+          <option value="manager.authentication.views.UserManagePermissionMixin.request" />
+          <option value="manager.mixins.AdminRequiredMixin.request" />
+          <option value="django.db.models.fields.related.OneToOneField.planproduct_set" />
+          <option value="manager.orders.models.Order.orderitem_set" />
+          <option value="manager.products.models.Tax.objects" />
+          <option value="manager.plans.models.Plan.objects" />
+          <option value="manager.layout.models.Banner.objects" />
+          <option value="manager.products.models.Product.objects" />
+          <option value="manager.layout.models.Testimonial.objects" />
+          <option value="manager.orders.models.Coupon.objects" />
+          <option value="customer.models.cart.OrderItem.attribute_values" />
+          <option value="django.db.models.fields.related.ForeignKey.attributes" />
+          <option value="customer.models.cart.OrderItemAttributeVale.objects" />
+          <option value="manager.plans.models.ProductPlanAttributeVale.objects" />
+          <option value="customer.models.cart.OrderItem.objects" />
+          <option value="customer.models.cart.OrderItemAttributeValue.objects" />
+          <option value="manager.plans.models.PlanProduct.objects" />
+          <option value="django.db.models.fields.related.OneToOneField.monitoring_period" />
+          <option value="manager.plans.models.ProductPlanAttributeValue.objects" />
+          <option value="apps.cms.models.Question.objects" />
+          <option value="apps.cms.models.QuestionOption.objects" />
+          <option value="apps.cms.models.AssessmentQuestionMap.objects" />
+          <option value="apps.cms.models.QuestionEmailTemplate.objects" />
+          <option value="apps.cms.models.UserLevel.objects" />
+          <option value="apps.cms.models.ContentLevel.objects" />
+          <option value="apps.cms.models.ContentType.objects" />
+          <option value="apps.cms.models.ContentIndustry.objects" />
+          <option value="django.db.models.base.Model.objects" />
+          <option value="apps.cms.models.Duration.objects" />
+          <option value="apps.cms.models.Question.question_set" />
+          <option value="oscar.apps.catalogue.models.AttributeOption.objects" />
+          <option value="oscar.apps.catalogue.models.ProductAttributeValue.objects" />
+          <option value="apps.wishlists.models.WishList.objects" />
+          <option value="apps.wishlists.models.Line.objects" />
+          <option value="apps.wishlists.models.WishListSubmissionAsRFQ.objects" />
+          <option value="apps.wishlists.models.WishListCategory.objects" />
+          <option value="apps.wishlists.models.SharedWishList.objects" />
+          <option value="apps.dashboard.articles.models.Article.objects" />
+          <option value="apps.dashboard.articles.models.Award.objects" />
+          <option value="apps.dashboard.articles.models.Event.objects" />
+          <option value="apps.catalogue.models.Space.objects" />
+          <option value="apps.quotation.models.Category.objects" />
+          <option value="apps.quotation.models.Brand.objects" />
+          <option value="apps.questionare.models.Question.objects" />
+          <option value="apps.questionare.models.Survey.objects" />
+          <option value="apps.questionare.models.Answer.objects" />
+          <option value="apps.questionare.models.Company.objects" />
+          <option value="apps.questionare.models.Option.objects" />
+          <option value="apps.questionare.models.Answer.questiion" />
+          <option value="apps.questionare.models.Answer.questiion_id" />
+          <option value="apps.questionare.models.AnswerGroup.objects" />
+          <option value="apps.users.api_views.ChangePasswordView.user" />
+          <option value="dashboard.models.SMS.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

@@ -1,0 +1,146 @@
+{% extends 'adminlte/base.html' %}
+{%  load humanize %}
+{% block title %}Create Resume{% endblock %}
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="box">
+                <div class="box-header">
+                    <h3>View uploaded Resumes</h3>
+                </div>
+                <div class="box-body">
+                    <table class="table">
+                        <tbody>
+                        <tr>
+                            <td>ID</td>
+                            <td>Link</td>
+                            <td>Created </td>
+                        </tr>
+                        {% for resume in object_list %}
+                        <tr class="{% if resume.id == object.id %} bg-primary {% endif %}">
+                            <th># {{ resume.id }}</th>
+                            <th><a href="{% url 'DetailResume' pk=resume.pk %}" class="{% if resume.id == object.id %} text-white {% endif %}">{{ resume.fullname }}</a> </th>
+                            <th>{{ resume.created_at|date }}</th>
+                            <th>
+                                {% if resume.id == object.id %}
+                                👉
+                                {% else %}
+                                <a class="btn btn-sm btn-primary" href="{% url 'DetailResume' pk=resume.pk %}">View</a>
+                                {% endif %}
+                            </th>
+                        </tr>
+                        {% empty %}
+                        <tr>
+                            <th colspan="100%"> Please Upload your first resume <a href="{% url 'CreateResume' %}">here</a> </th>
+                        </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            {% if object.pk %}
+            <div class="box">
+                <div class="box-header">
+                    <h3>{{ object.fullname }}'s Resume</h3>
+                </div>
+                <div class="box-body">
+                    <table class="table table-stripped">
+                        <tbody>
+                        <tr>
+                            <td>Created</td>
+                            <td>{{ object.created_at|date }}</td>
+                        </tr>
+                        <tr>
+                            <td>Status</td>
+                            <td>{{ object.status }}</td>
+                        </tr>
+                        <tr>
+                            <td>fullname</td>
+                            <td>{{ object.fullname }}</td>
+                        </tr>
+                        <tr>
+                            <td>address</td>
+                            <td>{{ object.address }}</td>
+                        </tr>
+                        <tr>
+                            <td>mobile</td>
+                            <td>{{ object.mobile }}</td>
+                        </tr>
+                        <tr>
+                            <td>skills</td>
+                            <td>{{ object.skills }}</td>
+                        </tr>
+                        <tr>
+                            <td>email</td>
+                            <td>{{ object.email }}</td>
+                        </tr>
+                        {% if request.user.is_superuser %}
+                        <tr>
+                            <td colspan="100%">He/She would handle difficult or stress situations by :  <b>{{ object.q1 }}</b></td>
+                        </tr>
+                        <tr>
+                            <td colspan="100%">He/she handles his colleagues by: <b>{{ object.q2 }}</b> </td>
+                        </tr>
+                        <tr>
+                            <td colspan="100%"> Is He/She easily get disappointed after an interview experience ? : <b> He/She would {{ object.q3 }} </b> </td>
+                        </tr>
+                        <tr>
+                            <td colspan="100%">He/she would Handle failure by : <b> {{ object.q4 }}</b> </td>
+                        </tr>
+                        <tr>
+                            <td colspan="100%">Communication style is : <b>{{ object.q5 }}</b></td>
+                        </tr>
+                        <tr>
+                            <td colspan="100%">Approach for problem solving : <b>{{ object.q6 }}</b></td>
+                        </tr>
+                        {% endif %}
+                        <tr>
+                            <td>Resume</td>
+                            <td><a href="{{ object.resume.url }}"> {{object.resume.url}} </a></td>
+                        </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="100%"> Summary of analysis  </td>
+                            </tr>
+
+                            <tr>
+
+                                <td colspan="100%">
+                                    {% if object.response %}
+                                    <div class="alert alert-danger border  ">Predicted Personality :: <b>{{ object.predicted_personality }}</b></div>
+                                    {% if request.user.is_superuser %}
+                                    <div class="alert alert-success">
+                                        Extracted Information:
+                                        <pre>{{ object.response }}</pre>
+                                    </div>
+                                    <a class="btn btn-warning" href="{% url 'predict' pk=object.pk %}">Want to predict again?</a>
+                                    {% endif %}
+                                    {% else %}
+                                    <a class="btn btn-danger" href="{% url 'predict' pk=object.pk %}">Predict Result!</a>
+                                    {% endif %}
+                                </td>
+                            </tr>
+
+                        </tfoot>
+                    </table>
+                    <iframe src="{{  object.resume.url }}"
+                            frameBorder="0"
+                            scrolling="auto"
+                            height="100%"
+                            width="100%"
+                            style="height:80vh !important;"
+
+                    ></iframe>
+
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

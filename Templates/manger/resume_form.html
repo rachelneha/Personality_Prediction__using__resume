@@ -1,0 +1,127 @@
+{% extends 'adminlte/base.html' %}
+
+{% block title %}Create Resume{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="box">
+                <div class="box-header">
+                    <b>DO FILL THE FORM</b>
+                </div>
+                <div class="box-body">
+                    <ul class="errorlist">
+                        {% if form.non_field_errors %}
+                        <li>{{ form.non_field_errors }}</li>
+                        {% endif %}
+                        {% for field in form %}
+                        {% if field.errors %}
+                        <li>
+                            {{ field.label }}
+                            <ul class="errorlist">
+                                {% for error in field.errors %}
+                                <li>{{ error }}</li>
+                                {% endfor %}
+                            </ul>
+                        </li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                    <div class="col-12">
+                        <form action="" method="post" enctype="multipart/form-data">
+                            <div class="row">
+                                <div class="col-md-12 mt-3">
+                                    <b>{{ form.resume.label }}</b>
+                                    {{ form.resume }}
+                                    <p class="text-danger">{{ form.resume.errors }}</p>
+                                </div>
+                                <div class="col-md-12 mt-3">
+                                    <b>{{ form.fullname.label }}</b>
+
+                                    {{ form.fullname }}
+                                    <p class="text-danger">{{ form.fullname.errors }}</p>
+                                </div>
+                                <div class="col-md-12 mt-3">
+                                    <b>{{ form.address.label }}</b>
+                                    {{ form.address }}
+                                    <p class="text-danger">{{ form.address.errors }}</p>
+                                </div>
+                                <div class="col-md-12 mt-3">
+                                    <b>{{ form.mobile.label }}</b>
+
+                                    {{ form.mobile }}
+                                    <p class="text-danger">{{ form.mobile.errors }}</p>
+                                </div>
+                                <div class="col-md-12 mt-3">
+                                    <b>{{ form.skills.label }}</b>
+
+                                    {{ form.skills }}
+                                    <p class="text-danger">{{ form.skills.errors }}</p>
+                                </div>
+                                <div class="col-md-12 mt-3">
+                                    <b>{{ form.email.label }}</b>
+
+                                    {{ form.email }}
+                                    <p class="text-danger">{{ form.email.errors }}</p>
+                                </div>
+                                <div class="col-md-12 mt-3">
+                                    <b>{{ form.gender.label }}</b>
+
+                                    {{ form.gender }}
+                                    <p class="text-danger">{{ form.gender.errors }}</p>
+                                </div> <div class="col-md-12 mt-3">
+                                    <b>{{ form.age.label }}</b>
+
+                                    {{ form.age }}
+                                    <p class="text-danger">{{ form.age.errors }}</p>
+                                </div>
+                                <div class="col-md-12 mt-3">
+                                    <b>{{ form.q1.label }}</b>
+                                    <p>Imagine you are a project manager who just found out that your team is behind schedule and the deadline is approaching rapidly. You have to find a way to motivate your team to catch up and get the project back on track while also managing your own stress and workload.</p>
+                                    {{ form.q1 }}
+                                    <p class="text-danger">{{ form.q1.errors }}</p>
+                                </div>
+                                <div class="col-md-12 mt-3">
+                                    <b>{{ form.q2.label }}</b>
+                                    <p>Imagine you are at a networking event and have to approach strangers to initiate conversations. You feel a bit nervous about it, but you know it's important for your career, so you force yourself to be outgoing.</p>
+                                    {{ form.q2 }}
+                                    <p class="text-danger">{{ form.q2.errors }}</p>
+                                </div>
+                                <div class="col-md-12 mt-3">
+                                    <b>{{ form.q3.label }}</b>
+                                    <p>Imagine you have been looking forward to a job interview for weeks. You thought you were a perfect fit for the job, but after the interview, you find out that you didn't get it. You feel deflated and disappointed.</p>
+                                    {{ form.q3 }}
+                                    <p class="text-danger">{{ form.q3.errors }}</p>
+                                </div>
+                                <div class="col-md-12 pt-3">
+                                    <b>{{ form.q4.label }}</b>
+                                    <p>Imagine you have been working on a project for months, and despite your best efforts, it didn't meet the expectations of your boss or clients. You have to figure out how to learn from the experience and improve for the next project.</p>
+                                    {{ form.q4 }}
+                                    <p class="text-danger">{{ form.q4.errors }}</p>
+                                </div>
+                                <div class="col-md-12 pt-3">
+                                    <b>{{ form.q5.label }}</b>
+                                    <p>Imagine you have to explain a complicated process to a team member who is new to the company and has no prior experience with it. You have to find a way to break down the information in a way that is easy to understand without oversimplifying it.</p>
+                                    {{ form.q5 }}
+                                    <p class="text-danger">{{ form.q5.errors }}</p>
+                                </div>
+                                <div class="col-md-12 pt-3">
+                                    <b>{{ form.q6.label }}</b>
+                                    <p>Imagine you are in a meeting and a difficult problem arises that requires immediate attention. You have to think on your feet and come up with a solution that satisfies everyone involved.</p>
+                                    {{ form.q6 }}
+                                    <p class="text-danger"> {{ form.q6.errors }}</p>
+                                </div>
+                            </div>
+                            {% csrf_token %}
+                            <div class="form-row" style="padding-top: 16px;">
+                                <input type="submit" class="btn btn-success w-50 btn-lg mt-2" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
